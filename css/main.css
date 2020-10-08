@@ -57,6 +57,7 @@
 
 .title {
     margin-top: 6rem;
+    color: #2C2B2C;
 }
 
 .body-text {
@@ -81,7 +82,7 @@
 }
 
 .page-2 {
-    height: 100vh;
+    height: 10vh;
     padding: 3rem 10rem 2rem 10rem;
 }
 
@@ -136,5 +137,72 @@
 .learn-more {
     margin-left: .5rem;
     font-size: small;
+    font-weight: 650;
+    color: rgb(203, 47, 47);
+}
+
+.page-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50rem;
+    margin-top: 9rem;
+}
+
+.dec-3 {
+    color: #2C2B2C;
+}
+
+.preview-jpg {
+    width: 22rem;
+    height: 37rem;
+}
+
+.gord {
+    display: grid;
+    margin-right: 5rem;
+}
+
+.watch-boot {
+    background-color: #E75954;
+    width: 5.5rem;
+    height: 2rem;
+    color: white;
+    margin-top: 2rem;
+    border: none;
+    cursor: pointer;
+    font-size: .7rem;
+    font-weight: 600;
+}
+
+.page-4 {
+    background-image: url(../img/runners.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.conte {
+    margin-left: 40rem;
+    padding-top: 15rem;
+}
+
+.dec {
+    color: white;
+}
+
+.bod {
+    color: white;
+    border-left: 2px solid white;
+}
+
+.watch-boat {
+    background-color: #E75954;
+    width: 8rem;
+    height: 2rem;
+    color: white;
+    margin-top: 2rem;
+    border: none;
+    cursor: pointer;
+    font-size: .7rem;
     font-weight: 600;
 }
